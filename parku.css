@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('fonts/blackjack-webfont.eot');
+    src: url('fonts/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/blackjack-webfont.woff2') format('woff2'),
+         url('fonts/blackjack-webfont.woff') format('woff'),
+         url('fonts/blackjack-webfont.ttf') format('truetype'),
+         url('fonts/blackjack-webfont.svg#black_jackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	background-image: url("photoback.gif");
+	background-image: opacity: 0.6;
+
+	
+}
+
+h1
+{
+	color: black;
+	font-weight: bolder;
+	font-family: "black_jackregular",Impact;
+	text-align: center;
+	font-size: 3em;
+	margin: 50px;
+
+	background-color: white;
+	opacity: 0.7;
+	text-align: auto;
+	box-shadow: 0px 0px 0px 2px green;
+	padding: 8px;
+	
+
+}
+
+#blockpage
+
+{
+	width:1200px;
+	margin: auto;
+}
+
+/*pjesa1*/
+
+#Parku
+{
+
+	display:flex ;
+	justify-content: space-around;
+ 	margin top: 30px;
+ 	margin-left: 30px;
+
+
+	
+}
+
+#Parku1
+{
+
+ 	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 0px;
+	margin-left: 0px;
+
+
+}
+
+.textparku
+{
+
+
+	display: inline-block;
+	
+	opacity: 0.7;
+	width: 40%;
+	padding:10px ;
+	font-size: 1.2em;
+	margin-top: 30px;
+	text-align: justify;
+	text-align: center;
+	opacity: 0.7;
+
+}
+ #Parku2
+
+ {
+ 	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 0px;
+	margin-left: 0px;
+
+
+ }
+
+/*pjesa 2*/
+
+#Lulefoto
+{
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+#Luletext
+{
+	display: inline-block;
+
+	margin-top: 20px;
+	width: 50%;
+	padding:10px ;
+	font-size: 1.2em;
+	text-align: justify;
+
+}
+#Lule
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 30px;
+
+
+}
+
+
+#thenje
+{
+	color: black;
+	font-weight: bolder;
+	font-family: "black_jackregular",Impact;
+	text-align: center;
+	font-size: 1.7em;
+	margin: 30px;
+
+}
+
+#parkuu
+{
+	display: flex;
+justify-content: space-around;
+}
+
+#libri
+{
+	display: flex;
+	justify-content: space-around;
+
+	margin-top: 20px;
+}
+
+footer
+{
+	clear:both ;
+	background-color: white;
+	opacity: 0.7;
+	text-align: auto;
+	box-shadow: 0px 0px 0px 2px yellow;
+	padding: 8px;
+	margin-top: 50px;
+	justify-content: space-around;
+		list-style-type: none;;
+
+}
+
+
+.foot
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 100px;
+	color: black;
+	text-decoration: none;
+
+
+
+}
+
+.foot2
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 100px;
+	color: black;
+	text-decoration: none;
+
+
+}
+
+.foot3
+{
+	display: inline-block;
+	vertical-align: middle;
+
+	color: black;
+	margin-left: 150px;
+
+}
+
+.foot0
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+	
+}
+
+
+
+
+

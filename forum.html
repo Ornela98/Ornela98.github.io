@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+	<head>
+		<meta charset = "UTF-8"/>
+		<title>Forumi i kontaktit</title>
+	</head>
+
+	<body>
+
+
+		<form method="post" action="traitement.php">
+			
+			<fieldset>
+
+				<legend>Informacionet tuaja</legend>
+			<p>
+				
+				<label for= "emri">Emri :</label> 
+				<input type="text" name="emri" id="emri" autofocus required /></br></br>
+				<label for= "emri">Mbiemri :</label>
+				<input type="text" name="mbiemri" id="mbiemri" required /></br></br>
+
+
+				<label for= "qyteti"> Ku banoni? :</label>
+				<select name="qyteti" id="qyteti">
+				<option value = "Fier" >Fier</option>
+				<option value = "Tirane" >Tirane</option>
+				<option value = "Vlore" >Vlore</option>
+				<option value = "Lushnje" >Lushnje</option>
+				<option value = "Qyetettjeter" >Qytet tjeter</option> 
+				</select>
+
+				</br></br>
+				<label for= "adresa">Adresa e plote:</label> 
+				<input type="text" name="adresa" id="adresa" required /></br></br>
+
+				<label for= "email">E-mail :</label> 
+				<input type="email" name="email" id="email"/></br></br>
+
+				<label for= "tel"> Numri i telefonit :</label> 
+				<input type="tel" name="tel" id="tel"required/></br></br>
+			
+			</p>
+			<input type="submit" value="Dergo informacionet e mia" />
+
+			</fieldset>
+		</form>
+
+
+
+
+	</body>
+
+</html>
+		
