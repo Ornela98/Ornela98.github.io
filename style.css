@@ -682,7 +682,17 @@ nav a:hover
 #receta
 {
 
-	display:none;
+display: flex;
+justify-content: space-around;
+
+
+}
+#receta2
+{
+
+display: flex;
+justify-content: space-around;
+
 
 }
 
