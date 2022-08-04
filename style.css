@@ -1,3 +1,8 @@
+
+@media all and (min-width: 1025px)
+{
+
+
 @font-face {
     font-family: 'black_jackregular';
     src: url('fonts/blackjack-webfont.eot');
@@ -299,8 +304,6 @@ nav a:hover
 
 	display:flex ;
 	justify-content: space-around;
-
-
 	
 }
 
@@ -316,7 +319,6 @@ nav a:hover
 .textparku
 {
 
-
 	display: inline-block;
 	vertical-align: middle;
 	background-color: white;
@@ -326,6 +328,7 @@ nav a:hover
 	font-size: 1.2em;
 	margin-left: 20px;
 }
+
  #Parku2
 
  {
@@ -338,7 +341,12 @@ nav a:hover
  }
 
 
+.telefon
+{
+	display: none;
+}
 
+}
 
 
 
@@ -385,9 +393,7 @@ nav a:hover
 @media all and (max-width: 1024px)
 {
 
-<meta name="viewport" content="width=divice-width"/>
-
-	@font-face {
+@font-face {
     font-family: 'black_jackregular';
     src: url('fonts/blackjack-webfont.eot');
     src: url('fonts/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
@@ -399,6 +405,17 @@ nav a:hover
     font-style: normal;
 
 }
+.computer
+{
+	display: none;
+}
+
+<meta name="viewport" content="width=divice-width"/>
+
+
+
+
+}
 
 h1
 {
@@ -406,7 +423,7 @@ h1
 	font-weight: bolder;
 	font-family: "black_jackregular",Impact;
 	text-align: center;
-	font-size: 5em;
+	font-size: 6em;
 	margin: 0px;
 
 }
@@ -422,7 +439,7 @@ h1
 .titre2
 {
 	font-size: 3em;
-	margin: 0px;
+	margin bottom: 40px;
 }
 
 body
@@ -628,6 +645,8 @@ nav ul
 	opacity: 0.8;
 	padding: 9px;
 	font-size: 2.5em;
+	text-align: center;
+	align-content: center;
 
 
 
@@ -637,6 +656,7 @@ nav li
 {
 	margin-right: 35px;
 	margin-top: 0px;
+	margin-left: 25px;
 
 }
 
@@ -679,7 +699,7 @@ nav a:hover
 	box-shadow: 2px 2px 2px #FFD573;
 	background-color: #FFD573;
 	opacity:0.9;
-	font-size: 1em;
+	font-size: 1.3em;
 }
 
 
