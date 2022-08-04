@@ -542,29 +542,7 @@ margin-bottom: 300px;
 }
 /* Ornela*/
 
-#Ornelaphoto
-{
-	display: inline-block;
-}
 
-#Ornelatext
-{
-	display: inline-block;
-	vertical-align: middle;
-	background-color: white;
-	opacity: 0.7;
-	padding:10px ;
-	font-size: 1.3em;
-	width: auto;
-	margin-top: 20px;
-
-}
-#Ornela
-{
-	display: flex;
-
-	flex-wrap: wrap;
-}
 
 #Babiphoto
 {
@@ -575,14 +553,14 @@ margin-bottom: 300px;
 
 }
 
-#Babitext
+#BabiOrnelatext
 {
 	display: inline-block;
 	vertical-align: middle;
 	background-color: white;
 	opacity: 0.7;
 	padding:10px ;
-	font-size: 1.3em;
+	font-size: 1.4em;
 	margin-bottom: 20px;
 	width: auto;
 }
@@ -718,11 +696,11 @@ nav a:hover
 	
 }
 
-#Parku1
+#Parku
 {
 
-	display: inline-block;
-	vertical-align: middle;
+	display: flex;
+	justify-content: space-around;
 	margin-bottom: 20px;
 
 }
@@ -738,17 +716,10 @@ nav a:hover
 	
 	padding:10px ;
 	font-size: 1.3em;
-	margin-left: 20px;
+	
 	width: auto;
 }
- #Parku2
 
- {
- 	display: inline-block;
-	vertical-align: middle;
-	margin-bottom: 20px;
-	margin-left: 20px;
-}
 
 #blockpage
 {
