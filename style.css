@@ -487,6 +487,7 @@ footer
 	text-align: center;
 	box-shadow: 2px 2px 2px yellow;
 	padding: 8px;
+	font-size: 2em;
 }
 
 #photo1
@@ -594,6 +595,7 @@ margin-bottom: 300px;
 
 	display: flex;
 	justify-content: space-around;
+	margin-bottom: 20px;
 
 }
 
