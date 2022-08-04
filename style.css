@@ -589,11 +589,11 @@ margin-bottom: 300px;
 	margin-bottom: 20px;
 	width: auto;
 }
-#Babi
+#BabiOrnela
 {
 
 	display: flex;
-	flex-wrap: wrap;
+	justify-content: space-around;
 
 }
 
@@ -699,7 +699,7 @@ nav a:hover
 	box-shadow: 2px 2px 2px #FFD573;
 	background-color: #FFD573;
 	opacity:0.9;
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 
 
