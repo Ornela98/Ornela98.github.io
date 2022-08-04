@@ -385,6 +385,8 @@ nav a:hover
 @media all and (max-width: 1024px)
 {
 
+<meta name="viewport" content="width=divice-width"/>
+
 	@font-face {
     font-family: 'black_jackregular';
     src: url('fonts/blackjack-webfont.eot');
@@ -732,7 +734,7 @@ nav a:hover
 
 #blockpage
 {
-	width: 850px;
+	width: auto;
 }
 
  }
