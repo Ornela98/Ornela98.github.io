@@ -15,7 +15,8 @@ body
 {
 	background-image: url("Receta.png");
 	background-image: opacity: 0.2;
-	background-repeat:;
+	background-size: 100% auto;
+
 }
 
 h1
@@ -296,6 +297,24 @@ footer
 	margin: 10px;
 	
 }
+
+@media all and (max-width: 1024px)
+{
+
+	#blockpage
+	{
+		width: auto;
+		margin: auto;
+	}
+
+	body
+	{
+		width: auto;
+		margin: auto;
+	}
+}
+
+
 
 
 
