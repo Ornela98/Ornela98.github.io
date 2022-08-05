@@ -603,6 +603,41 @@
 			width: auto;
 		}
 
+		.kliko
+		{
+			background-color: white;
+			opacity: 0.7;
+			padding:10px ;
+			font-size: 1.4em;
+		}
+
+		#receta1
+		{
+
+			display: flex;
+			justify-content: space-around;
+
+		}
+
+		#receta2
+		{
+
+			display: flex;
+			justify-content: space-around;
+
+
+		}
+
+		#receta11 
+		{
+			margin-left: 20px;
+		}
+
+		#receta12
+		{
+			margin-left: 20px;
+		}
+
 
 
 		footer
@@ -619,10 +654,52 @@
 			flex-wrap: wrap;
 		}
 
+		.foot
+		{
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: 100px;
+			color: black;
+			text-decoration: none;
+			color: black;
+
+		}
+
+		.foot2
+		{
+			display: inline-block;
+			vertical-align: middle;
+			margin-left: 100px;
+			color: black;
+			text-decoration: none;
+			color: black;
+
+
+		}
+
+		.foot0
+		{
+			display: inline-block;
+			vertical-align: middle;
+			margin: 10px;
+			
+
+		}
+
+		.perfundimi
+		{
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			color: black;
+			text-align: center;
+			background-color: #FFD573;
+			opacity: 0.8;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			padding-bottom: 20px;
+
+		}
 		
-
-
-
-
 	
 }
