@@ -94,6 +94,7 @@
 	{
 		display: inline-block;
 		vertical-align: middle;
+		margin: auto;
 
 	}
 
@@ -124,6 +125,7 @@
 	{
 		display: inline-block;
 		vertical-align: middle;
+		margin: auto;
 	}
 
 	#receta5text
@@ -155,9 +157,7 @@
 	{
 		display: inline-block;
 		vertical-align: middle;
-
-
-
+		margin: auto;
 
 	}
 
@@ -191,9 +191,7 @@
 	{
 		display: inline-block;
 		vertical-align: middle;
-
-
-
+		margin: auto;
 
 	}
 
@@ -374,12 +372,14 @@
 
 	}
 
-		#receta
+		#receta1
 	{
 		display: flex;
 		justify-content: space-around;
 		margin-top: 20px;
 	}
+
+
 
 	.produktreceta51
 	{
@@ -389,69 +389,72 @@
 		font-size: 3.5em;
 		margin-top: 60px;
 		text-align: center;
+		background-color: #F5E1D0;
 
 
 	}
 
-	.produktreceta6
+	.produktreceta61
 	{
 		color: black;
 		font-weight: bolder;
 		font-family: "black_jackregular",Impact;
-		font-size: 2em;
-		margin: 0px;
+		font-size: 3.5em;
+		margin-top: 60px;
+		text-align: center;
+		background-color: #F5E1D0;
 	}
 
-	.produktreceta8
+	.produktreceta81
 	{
 		color: black;
 		font-weight: bolder;
 		font-family: "black_jackregular",Impact;
-		font-size: 2em;
-		margin: 0px;
+		font-size: 3.5em;
+		margin-top: 60px;
+		text-align: center;
+		background-color: #F5E1D0;
 	}
 
-	.produktreceta7
+	.produktreceta71
 	{
 		color: black;
 		font-weight: bolder;
 		font-family: "black_jackregular",Impact;
-		font-size: 2em;
-		margin: 0px;
+		font-size: 3.5em;
+		margin-top: 60px;
+		text-align: center;
+		background-color: #F5E1D0;
 	}
 
 	
 	/* receta6*/
 
-	#receta6photo
+	#receta61photo
 	{
 		display: inline-block;
 		vertical-align: middle;
-
+		margin: auto;
 	}
 
-	#receta6text
+	#receta61text
 	{
 		display: inline-block;
 		vertical-align: middle;
 		background-color: none;
 		background-color: none;
-		width: 50%%;
 		padding:10px ;
-		font-size: 1.2em;
-
+		font-size: 1.8em;
 		margin-top: 0px;
 		text-align: justify;
 		margin-left: 50px;
+		text-align: center;
 	}
 
-	#receta6
+	#receta61
 	{
 		display: flex;
-		justify-content: space-around;
-			margin-bottom: 70px;
-			margin-top: 50px;
-
+		flex-direction: column;
 	}
 
 	#receta51photo
@@ -482,78 +485,65 @@
 		display: flex;
 		flex-direction: column;
 
-
 	}
 
 
-	#receta8photo
+	#receta81photo
 	{
 		display: inline-block;
 		vertical-align: middle;
-
-
-
+		margin: auto;
 
 	}
 
-	#receta8text
+	#receta81text
 	{
 		display: inline-block;
 		vertical-align: middle;
 		background-color: none;
 		background-color: none;
-		width: 50%%;
 		padding:10px ;
-		font-size: 1em;
-
+		font-size: 1.8em;
 		margin-top: 0px;
 		text-align: justify;
 		margin-left: 50px;
-
+		text-align: center;
 
 	}
-	#receta8
+	#receta81
 	{
 		display: flex;
-		justify-content: space-around;
-			margin-bottom: 70px;
-
+		flex-direction: column;
 
 	}
 
 
-	#receta7photo
+	#receta71photo
 	{
 		display: inline-block;
 		vertical-align: middle;
-
-
-
+		margin: auto;
 
 	}
 
-	#receta7text
+	#receta71text
 	{
 		display: inline-block;
 		vertical-align: middle;
 		background-color: none;
 		background-color: none;
-		width: 50%%;
 		padding:10px ;
-		font-size: 1.2em;
-
+		font-size: 1.8em;
 		margin-top: 0px;
 		text-align: justify;
-		margin-left: 80px;
-
+		margin-left: 50px;
+		text-align: center;
 
 	}
-	#receta7
+	#receta71
 	{
 		display: flex;
-		justify-content: space-around;
-		margin-bottom: 70px;
-		margin-left: 2px;
+		flex-direction: column;
 
 	}
 
@@ -632,8 +622,16 @@
 		
 	}
 
-}
+	.insta
+	{
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 1.5em;
+	}
 
+}
 
 
 
