@@ -14,7 +14,7 @@
 	    font-weight: normal;
 	    font-style: normal;
 
-}
+	}
 
 	h1
 	{
@@ -526,6 +526,7 @@
 			font-size: 1.4em;
 			margin-bottom: 20px;
 			width: auto;
+			text-align: justify;
 		}
 
 		#BabiOrnela
@@ -605,6 +606,7 @@
 			font-size: 1.3em;
 			font-size: 1.4em;
 			width: auto;
+			text-align: justify;
 		}
 
 		.kliko

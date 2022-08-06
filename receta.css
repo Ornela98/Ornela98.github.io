@@ -447,7 +447,7 @@
 		font-size: 1.8em;
 		margin-top: 0px;
 		text-align: justify;
-		text-align: center;
+
 	}
 
 	#receta61
@@ -473,7 +473,7 @@
 		font-size: 1.8em;
 		margin-top: 0px;
 		text-align: justify;
-		text-align: center;
+
 
 	}
 
@@ -504,7 +504,7 @@
 		font-size: 1.8em;
 		margin-top: 0px;
 		text-align: justify;
-		text-align: center;
+	
 
 	}
 	#receta81
@@ -533,7 +533,6 @@
 		font-size: 1.8em;
 		margin-top: 0px;
 		text-align: justify;
-		text-align: center;
 
 	}
 	#receta71
@@ -646,6 +645,13 @@
 		font-family: "black_jackregular",Impact;
 		text-align: center;
 		font-size: 1.5em;
+	}
+
+	.paragraf
+
+	{
+		text-align: center;
+		font-size: 1.8em;
 	}
 
 }
