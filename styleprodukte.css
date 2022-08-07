@@ -269,7 +269,6 @@
 		background-color: white;
 		opacity: 0.7;
 		text-decoration: none;
-
 		vertical-align: middle;
 		padding: 6px;
 		margin-left: 10px;
@@ -289,7 +288,7 @@
 		text-decoration: none;
 		padding: 4px;
 		vertical-align: middle;
-			margin-left: 170px;
+		margin-left: 170px;
 
 
 	}
@@ -560,7 +559,7 @@
 		font-size: 1.5em;
 		align-content: middle;
 		text-align: center;
-		width: 60%;
+		width: 70%;
 		border: 2px solid black;
 		border-radius: 10px;
 	}
