@@ -1,295 +1,646 @@
-@font-face {
-    font-family: 'black_jackregular';
-    src: url('fonts/blackjack-webfont.eot');
-    src: url('fonts/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/blackjack-webfont.woff2') format('woff2'),
-         url('fonts/blackjack-webfont.woff') format('woff'),
-         url('fonts/blackjack-webfont.ttf') format('truetype'),
-         url('fonts/blackjack-webfont.svg#black_jackregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-body
+@media all and (min-width: 1025px)
 {
-	background-image: url("produkte.png");
-	background-image: opacity: 0.2;
+
+	@font-face 
+	{
+	    font-family: 'black_jackregular';
+	    src: url('fonts/blackjack-webfont.eot');
+	    src: url('fonts/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('fonts/blackjack-webfont.woff2') format('woff2'),
+	         url('fonts/blackjack-webfont.woff') format('woff'),
+	         url('fonts/blackjack-webfont.ttf') format('truetype'),
+	         url('fonts/blackjack-webfont.svg#black_jackregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+
+	}
+
+	body
+	{
+		background-image: url("produkte.png");
+		background-image: opacity: 0.2;
+		background-size: 100% auto;
+		
+	}
+
+	h1
+	{
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 3.5em;
+		margin: 70px;
+
+	}
+
+	.produktmjalt
+	{
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 2em;
+		margin: 0px;
+	}
+
+	.produktqumeshtblete
+	{
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 2em;
+		margin: 10px;
+		margin-top: 0px;
+	}
+
+	.produktpropolis
+	{
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 2em;
+		margin: 10px;
+		margin-top: 0px;
+	}
+
+
 	
+	/* qumeshtblete*/
+
+	#qumeshtbletephoto
+	{
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: 50px;
+
+	}
+
+	#qumeshtbletetext
+	{
+		display: inline-block;
+		vertical-align: middle;
+		background-color: none;
+		width: 40%;
+		padding:10px ;
+		font-size: 1.2em;
+		margin-top: 5px;
+		text-align: justify;
+
+	}
+	#qumeshtblete
+	{
+		display: flex;
+		justify-content: space-around;
+		margin-bottom: 60px;
+
+
+	}
+
+	#mjaltphoto
+	{
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	#mjalttext
+	{
+		display: inline-block;
+		vertical-align: middle;
+		background-color: none;
+
+		width: 40%;
+		padding:10px ;
+		font-size: 1.2em;
+
+		margin-top: 0px;
+		text-align: justify;
+
+
+	}
+	#mjalt
+	{
+		display: flex;
+		justify-content: space-around;
+			margin-bottom: 70px;
+
+	}
+	#propolisphoto
+	{
+		display: inline-block;
+		vertical-align: middle;
+		margin-top: 20px;
+
+
+
+	}
+
+	#propolistext
+	{
+		display: inline-block;
+		vertical-align: middle;
+		background-color: none;
+
+		width: 40%;
+		padding:10px ;
+		font-size: 1.2em;
+
+		margin-top: 10px;
+		text-align: justify;
+
+
+	}
+	#propolis
+	{
+		display: flex;
+		justify-content: space-around;
+			margin-bottom: 80px;
+
+	}
+	#blockpage
+
+	{
+		width:1300px;
+		margin: auto;
+	}
+
+	footer
+	{
+		clear:both ;
+		background-color: white;
+		opacity: 0.7;
+		text-align: auto;
+		box-shadow: 0px 0px 0px 2px yellow;
+		padding: 8px;
+		margin-top: 50px;
+		justify-content: space-around;
+			list-style-type: none;;
+
+
+	}
+
+
+	.titull1
+	{
+
+		background-color: white;
+		opacity: 0.7;
+		text-align: center;
+		box-shadow: 2px 2px 2px yellow;
+		padding: 8px;
+	}
+
+
+
+
+
+
+	.foot
+	{
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 100px;
+		color: black;
+		text-decoration: none;
+
+
+
+	}
+
+	.foot2
+	{
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 100px;
+		color: black;
+		text-decoration: none;
+
+
+	}
+
+	.foot3
+	{
+		display: inline-block;
+		vertical-align: middle;
+
+		color: black;
+		margin-left: 150px;
+
+	}
+
+	.foot0
+	{
+		display: inline-block;
+		vertical-align: middle;
+		margin: 10px;
+		
+	}
+
+
+	.porositmjalt
+	{
+
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 1.5em;
+		background-color: white;
+		opacity: 0.7;
+		text-decoration: none;
+
+		vertical-align: middle;
+		padding: 6px;
+		margin-left: 100px;
+
+
+	}
+
+	.porositqumeshtblete
+	{
+
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 1.5em;
+		background-color: white;
+		opacity: 0.7;
+		text-decoration: none;
+
+		vertical-align: middle;
+		padding: 6px;
+		margin-left: 10px;
+
+	}
+
+	.porositpropolis
+	{
+
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 1.5em;
+		background-color: white;
+		opacity: 0.7;
+		text-decoration: none;
+		padding: 4px;
+		vertical-align: middle;
+			margin-left: 170px;
+
+
+	}
+
+	.telefon
+	{
+		display: none;
+	}
+
 }
 
-h1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*telefon*/
+
+@media all and (max-width: 1024px)
 {
-	color: black;
-	font-weight: bolder;
-	font-family: "black_jackregular",Impact;
-	text-align: center;
-	font-size: 3.5em;
-	margin: 70px;
+	.computer
+	{
+		display: none;
+	}
 
-}
+	@font-face 
+	{
+	    font-family: 'black_jackregular';
+	    src: url('fonts/blackjack-webfont.eot');
+	    src: url('fonts/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('fonts/blackjack-webfont.woff2') format('woff2'),
+	         url('fonts/blackjack-webfont.woff') format('woff'),
+	         url('fonts/blackjack-webfont.ttf') format('truetype'),
+	         url('fonts/blackjack-webfont.svg#black_jackregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
 
-.produktmjalt
-{
-	color: black;
-	font-weight: bolder;
-	font-family: "black_jackregular",Impact;
-	text-align: center;
-	font-size: 2em;
-	margin: 0px;
-}
+	}
 
-.produktqumeshtblete
-{
-	color: black;
-	font-weight: bolder;
-	font-family: "black_jackregular",Impact;
-	text-align: center;
-	font-size: 2em;
-	margin: 10px;
-	margin-top: 0px;
-}
+	body
+	{
+		background-image: url("produkte.png");
+		background-image: opacity: 0.2;
+		background-size: 100% auto;
+		
+	}
 
-.produktpropolis
-{
-	color: black;
-	font-weight: bolder;
-	font-family: "black_jackregular",Impact;
-	text-align: center;
-	font-size: 2em;
-	margin: 10px;
-	margin-top: 0px;
-}
+	h1
+	{
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 3.7em;
+		margin: 100px;
 
+	}
 
-}
-/* qumeshtblete*/
+	.produktmjalt1
+	{
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 3.2em;
+		margin: 0px;
+		background-color: #F5E1D0;
+	}
 
-#qumeshtbletephoto
-{
-	display: inline-block;
-	vertical-align: middle;
-	margin-top: 50px;
+	.produktqumeshtblete1
+	{
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 3.2em;
+		margin: 10px;
+		margin-top: 0px;
+		background-color: #F5E1D0;
+	}
 
-}
-
-#qumeshtbletetext
-{
-	display: inline-block;
-	vertical-align: middle;
-	background-color: none;
-	width: 40%;
-	padding:10px ;
-	font-size: 1.2em;
-	margin-top: 5px;
-	text-align: justify;
-
-}
-#qumeshtblete
-{
-	display: flex;
-	justify-content: space-around;
-	margin-bottom: 60px;
-
-
-}
-
-#mjaltphoto
-{
-	display: inline-block;
-	vertical-align: middle;
-}
-
-#mjalttext
-{
-	display: inline-block;
-	vertical-align: middle;
-	background-color: none;
-
-	width: 40%;
-	padding:10px ;
-	font-size: 1.2em;
-
-	margin-top: 0px;
-	text-align: justify;
+	.produktpropolis1
+	{
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 3.2em;
+		margin: 10px;
+		margin-top: 0px;
+		background-color: #F5E1D0;
+	}
 
 
-}
-#mjalt
-{
-	display: flex;
-	justify-content: space-around;
+	
+	/* qumeshtblete*/
+
+	#qumeshtbletephoto1
+	{
+		display: inline-block;
+		vertical-align: middle;
+		margin: auto;
+		margin-bottom: 20px;
+
+	}
+
+	#qumeshtbletetext1
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: none;
+		padding:10px ;
+		font-size: 1.8em;
+		text-align: justify;
+
+	}
+	#qumeshtblete1
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin-bottom: 70px;
+	}
+
+	#mjaltfoto1
+	{
+		display: inline-block;
+		vertical-align: middle;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+
+	#mjalttext1
+	{
+		/*display: inline-block;*/
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: none;
+		padding:10px ;
+		font-size: 1.8em;
+		text-align: justify;
+	}
+
+
+	.porositmjalt1
+	{
+
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 1.5em;
+		background-color: #F0CE98;
+		opacity: 0.9;
+		text-decoration: none;
+		vertical-align: middle;
+		padding: 6px;
+		font-size: 1.5em;
+		align-content: middle;
+		text-align: center;
+		width: 60%;
+		border: 2px solid black;
+		border-radius: 10px;
+
+	}
+
+	#mjalt1
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 		margin-bottom: 70px;
 
-}
-#propolisphoto
-{
-	display: inline-block;
-	vertical-align: middle;
-	margin-top: 20px;
+	}
+	#propolisfoto1
+	{
+		display: inline-block;
+		vertical-align: middle;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+
+	#propolistext1
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: none;
+		padding:10px ;
+		font-size: 1.8em;
+		text-align: justify;
+	}
+	#propolis1
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin-bottom: 70px;
+
+	}
+	#blockpage1
+
+	{
+		width:auto;
+		margin: auto;
+	}
 
 
+	.porositqumeshtblete1
+	{
 
-}
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 1.5em;
+		background-color: #F0CE98;
+		opacity: 0.9;
+		text-decoration: none;
+		vertical-align: middle;
+		padding: 6px;
+		font-size: 1.5em;
+		align-content: middle;
+		text-align: center;
+		width: 80%;
+		border: 2px solid black;
+		border-radius: 10px;
 
-#propolistext
-{
-	display: inline-block;
-	vertical-align: middle;
-	background-color: none;
+	}
 
-	width: 40%;
-	padding:10px ;
-	font-size: 1.2em;
+	.porositpropolis1
+	{
 
-	margin-top: 10px;
-	text-align: justify;
+		color: black;
+		font-weight: bolder;
+		font-family: "black_jackregular",Impact;
+		text-align: center;
+		font-size: 1.5em;
+		background-color: #F0CE98;
+		opacity: 0.9;
+		text-decoration: none;
+		vertical-align: middle;
+		padding: 6px;
+		font-size: 1.5em;
+		align-content: middle;
+		text-align: center;
+		width: 60%;
+		border: 2px solid black;
+		border-radius: 10px;
+	}
 
-
-}
-#propolis
-{
-	display: flex;
-	justify-content: space-around;
-		margin-bottom: 80px;
-
-}
-#blockpage
-
-{
-	width:1300px;
-	margin: auto;
-}
-
-footer
-{
-	clear:both ;
-	background-color: white;
-	opacity: 0.7;
-	text-align: auto;
-	box-shadow: 0px 0px 0px 2px yellow;
-	padding: 8px;
-	margin-top: 50px;
-	justify-content: space-around;
+	footer
+	{
+		clear:both ;
+		background-color: white;
+		opacity: 0.7;
+		text-align: auto;
+		box-shadow: 0px 0px 0px 2px yellow;
+		padding: 8px;
+		margin-top: 10px;
 		list-style-type: none;;
+		flex-wrap: wrap;
+		font-size: 1.3;
+	}
+
+	.foot
+	{
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 100px;
+		color: black;
+		text-decoration: none;
+		color: black;
+		font-size: 1.3;
+
+	}
+
+	.foot2
+	{
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 100px;
+		color: black;
+		text-decoration: none;
+		color: black;
+		font-size: 1.3;
 
 
-}
+	}
 
+	.foot0
+	{
+		display: inline-block;
+		vertical-align: middle;
+		margin: 10px;			
 
-.titull1
-{
+	}
 
-	background-color: white;
-	opacity: 0.7;
-	text-align: center;
-	box-shadow: 2px 2px 2px yellow;
-	padding: 8px;
-}
+	.perfundimi
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		color: black;
+		text-align: center;
+		background-color: #F0CE98;
+		opacity: 0.8;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding-bottom: 20px;
 
+	}
 
+	.email a
+	{
+		font-size: 1.2em;
+		text-decoration: none;
+		color: brown;
+	}
 
+	.email
 
-
-
-.foot
-{
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 100px;
-	color: black;
-	text-decoration: none;
-
-
-
-}
-
-.foot2
-{
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 100px;
-	color: black;
-	text-decoration: none;
-
-
-}
-
-.foot3
-{
-	display: inline-block;
-	vertical-align: middle;
-
-	color: black;
-	margin-left: 150px;
-
-}
-
-.foot0
-{
-	display: inline-block;
-	vertical-align: middle;
-	margin: 10px;
-	
-}
-
-
-.porositmjalt
-{
-
-	color: black;
-	font-weight: bolder;
-	font-family: "black_jackregular",Impact;
-	text-align: center;
-	font-size: 1.5em;
-	background-color: white;
-	opacity: 0.7;
-	text-decoration: none;
-
-	vertical-align: middle;
-	padding: 6px;
-	margin-left: 100px;
-
+	{
+		font-size: 1.3em;
+	}
 
 }
-
-.porositqumeshtblete
-{
-
-	color: black;
-	font-weight: bolder;
-	font-family: "black_jackregular",Impact;
-	text-align: center;
-	font-size: 1.5em;
-	background-color: white;
-	opacity: 0.7;
-	text-decoration: none;
-
-	vertical-align: middle;
-	padding: 6px;
-	margin-left: 10px;
-
-}
-
-.porositpropolis
-{
-
-	color: black;
-	font-weight: bolder;
-	font-family: "black_jackregular",Impact;
-	text-align: center;
-	font-size: 1.5em;
-	background-color: white;
-	opacity: 0.7;
-	text-decoration: none;
-	padding: 4px;
-	vertical-align: middle;
-		margin-left: 170px;
-
-
-}
-
-
 
 
 
